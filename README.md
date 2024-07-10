@@ -1,34 +1,18 @@
-# Projeto de Desafios em Python
+# PySpark Pokémon Data Processing
 
-## Descrição
+Este projeto utiliza PySpark para extrair dados da API pública de Pokémon, processá-los e armazená-los em um banco de dados SQLite. O código demonstra como trabalhar com dados estruturados usando PySpark e realizar operações básicas de manipulação de dados.
 
-Este projeto tem como propósito implementar os aprendizados do curso de Python através de diferentes desafios. Os principais temas abordados incluem:
-- Extração de bases de dados
-- Tratamento e manipulação de data frames usando a biblioteca `pandas`
-- Criação de funções para automatização de tarefas
+## Pré-requisitos
 
-O objetivo é consolidar o conhecimento adquirido no curso e aplicar técnicas de programação para resolver problemas práticos.
+- Python 3.x instalado
+- Bibliotecas Python: `requests`, `plyer`, `pyspark`
+- Uma conexão com a internet para acessar a API de Pokémon
 
-## Estrutura do Projeto
+## Instalação de Dependências
 
-O projeto está organizado da seguinte forma:
+Para instalar as bibliotecas necessárias, execute o seguinte comando:
 
-├── data/
-│ ├── raw/ # Dados brutos extraídos de fontes diversas
-│ └── processed/ # Dados processados e prontos para análise
-├── notebooks/ # Jupyter notebooks com a análise exploratória e scripts
-├── scripts/ # Scripts Python para extração, tratamento e análise dos dados
-├── results/ # Resultados das análises, gráficos e relatórios
-└── README.md # Este arquivo com a descrição do projeto
-
-## Requisitos
-
-Para executar este projeto, você precisará ter o Python instalado em sua máquina. É recomendado criar um ambiente virtual para gerenciar as dependências do projeto. As principais bibliotecas utilizadas são:
-
-- `pandas`
-- `numpy`
-- `datetime`
-- `plyer`
-- `sq3lite`
-- `matplotlib`
-- `seaborn`
+```bash
+pip install requests 
+pip install plyer 
+pip install pyspark
