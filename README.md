@@ -16,3 +16,10 @@ Para instalar as bibliotecas necessárias, execute o seguinte comando:
 pip install requests 
 pip install plyer 
 pip install pyspark
+
+## Ambiente virtual
+- Ativar o Ambiente Virtual (myenv): myenv\Scripts\activate
+- Desativar o Ambiente Virtual: deactivate
+- Instalar bibliotecas: Ativar myenv e inserir 'pip install nome_da_biblioteca'
+- Atualizar bibliotecas: Ativar myemnv e inserir 'pip install --upgrade nome_da_biblioteca'
+    * Bibliotecas instaladas no ambiente virtual (myenv) vide: requeriments.txt
